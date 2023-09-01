@@ -1,0 +1,79 @@
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    min-height: 720px;
+    padding-bottom: 6.5rem;
+    
+}
+
+.mensagens__paragrafo{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    width: 68%;
+    text-align: center;
+    color: #000;
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+
+.mensagens__form{
+    background-color: var(--cinza-claro-fundos);
+    width: 86%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.mensagens input {
+    width: 89%;
+    background-color: var(--branco);
+}
+
+.mensagens input::placeholder {
+   font-size: .875rem;
+   text-align: left;
+   padding-left: 1rem;
+   
+}
+
+.mensagens label{
+    align-self: flex-start;
+    margin-left: 1rem;
+    color: #000;
+}
+
+
+
+@media  (min-width:768px){
+    .mensagens__paragrafo{
+        font-size: 1.125rem;
+    }
+    .mensagens{
+        max-width: 524px;
+        margin: 0 auto;
+        margin-top: 185px;
+    }
+    .mensagens__paragrafo{
+        font-size: 1.125rem;
+    }
+    .body-messagens-perfil{
+       
+        background-repeat: no-repeat;
+        background-position: top left, right;
+        background-size: 560px, 134px;
+    }
+}
+
+@media  (min-width:1440px){
+    .mensagens{
+        max-width: 552px;
+        margin: 0 auto;
+        margin-top: 86px;
+    }
+}
